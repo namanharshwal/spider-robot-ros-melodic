@@ -1,0 +1,76 @@
+# ROS Build Artifacts
+build/
+devel/
+install/
+logs/
+.catkin_workspace
+.catkin_tools/
+
+# ROS Log Files
+*.log
+log/
+
+# Python Compiled Files
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+*.egg
+
+# C++ Compiled Files
+*.o
+*.so
+*.a
+*.out
+*.exe
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Backup Files
+*.bak
+*.orig
+*.rej
+*~
+
+# System Files
+Thumbs.db
+.directory
+
+# ROS Specific
+msg_gen/
+srv_gen/
+msg/*Action.msg
+msg/*ActionFeedback.msg
+msg/*ActionGoal.msg
+msg/*ActionResult.msg
+msg/*Feedback.msg
+msg/*Goal.msg
+msg/*Result.msg
+msg/_*.py
+cfg/cpp/
+
+# Documentation Build
+docs/_build/
+
+# Gazebo
+*.world~
+
+# Temporary Files
+*.tmp
+tmp/
+temp/
+
